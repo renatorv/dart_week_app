@@ -47,7 +47,7 @@ class LoginPage extends GetView<LoginController> {
                         )),
                     SizedBox(height: 20),
                     PizzaDeliveryButton(
-                      onPressed: () {},
+                      onPressed: () => controller.login(null, null) ,
                       width: Get.mediaQuery.size.width * .8,
                       height: 50,
                       buttonColor: Get.theme.primaryColor,
